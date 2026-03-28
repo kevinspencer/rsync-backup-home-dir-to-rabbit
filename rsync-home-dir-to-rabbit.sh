@@ -5,3 +5,5 @@ sudo rsync -avh --delete -E \
   --exclude="Library/" \
   "/Users/kevin/" \
   "/Volumes/rabbit/home/"
+
+date > /Volumes/rabbit/.lastran
