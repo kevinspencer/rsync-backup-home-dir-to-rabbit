@@ -12,4 +12,4 @@ rsync -avh --delete -E \
   "/Volumes/rabbit/home/"
 
 date > /Volumes/rabbit/.lastran-$(basename "$0" .sh)
-date > /Users/kevin/.lastran-$(basename "$0".sh)
+date > /Users/kevin/.lastran-$(basename "$0" .sh)
